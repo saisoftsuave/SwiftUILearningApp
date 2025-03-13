@@ -16,7 +16,7 @@ struct FramworkGridView: View {
     var body: some View {
         VStack {
             Image(framework.imageName).resizable().frame(width: 90, height: 90)
-            Text(framework.imageName).font(.headline).scaledToFit().minimumScaleFactor(0.5)
+            Text(framework.imageName).font(.headline).scaledToFit().minimumScaleFactor(0.5).foregroundStyle(Color(.label))
         }
     }
 }
